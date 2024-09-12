@@ -1,5 +1,9 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import StickyScrool from "@/components/StickyScrool";
+import MusicSchoolTestimonials from "@/components/TestimonialCards";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +11,9 @@ export default function Home() {
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
       <HeroSection />
       <FeaturedCourses />
+      <StickyScrool />
+      <MusicSchoolTestimonials />
+      <UpcomingWebinars />
     </main>
   );
 }
